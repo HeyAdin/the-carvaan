@@ -126,3 +126,31 @@ ul {
     width: 100%;
     height: 300px;
 }
+
+/* Quotes Section */
+
+.quotes {width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    background-color: rgba(128, 128, 128, 0.404);
+    height: 100vh;
+    gap: 20px;
+}
+
+.quote {
+    width: 900px;
+    font-weight: light;
+    font-style: italic;
+    font-size: 32px;
+}
+
+.author {
+    margin-right:450px ;
+    align-self: flex-end;
+    font-size: 20px;
+    font-weight: bold;
+}
+
