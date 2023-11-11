@@ -3,6 +3,12 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
 header,a {
     color: white;
     text-decoration: none;
@@ -15,12 +21,17 @@ header {
     background-color: rgb(30, 72, 88);
     padding: 15px 55px;
     margin-bottom: 50px;
+    flex: 0 0 auto;
 }
 
 ul {
     display: flex;
     gap: 25px;
     list-style: none;
+}
+
+.main {
+    flex: auto;
 }
 
 .hero {
